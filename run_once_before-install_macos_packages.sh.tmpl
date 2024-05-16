@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Packages hash: {{ include "Brewfile" | sha256sum }}
+
+set -euo pipefail
+
+OS="{{ .chezmoi.os }}"
+
+if [[ $OS != "darwin" ]]; then
+	exit 0
+fi;
+
+cd "{{ .chezmoi.workingTree }}"
+brew bundle --file Brewfile --no-lock
