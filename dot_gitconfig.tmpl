@@ -1,0 +1,19 @@
+[user]
+	name = {{ .git.name }}
+	email = {{ .git.work.email }}
+	signingkey = {{ .git.work.signingkey }}
+[push]
+	default = simple
+[pull]
+	rebase = merges
+[merge]
+	ff = false
+	tool = meld
+[mergetool]
+	prompt = false
+[commit]
+	gpgsign = true
+	verbose = true
+[core]
+	hooksPath = /Users/mdp/.GIS-lm-build/git-hooks
+	ignorecase = false
