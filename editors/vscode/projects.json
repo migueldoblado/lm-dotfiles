@@ -1,7 +1,7 @@
 [
 	{
 		"name": "LM-dotfiles",
-		"rootPath": "/Users/miquel.doblado/Projects/lm-dotfiles",
+		"rootPath": "/Users/miquel.doblado/.local/share/chezmoi",
 		"paths": [],
 		"tags": [],
 		"enabled": true
