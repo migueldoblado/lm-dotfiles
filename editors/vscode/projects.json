@@ -1,0 +1,296 @@
+[
+	{
+		"name": "LM-dotfiles",
+		"rootPath": "/Users/miquel.doblado/Projects/lm-dotfiles",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-onlineCrawler",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/onlineCrawler",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-documents",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/documents",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-youtube",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/youtube",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-tiktok",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/tiktok",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-voices",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/voices",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "ATL-databricks-dmr",
+		"rootPath": "/Users/miquel.doblado/Projects/ATL-databricks/dmr",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Monitor",
+		"rootPath": "/net",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-Deepblue",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-deepBlue",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-Deepblue-frontend",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-deepBlue/frontend",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-Deepblue-server",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-deepBlue/server",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "Tools",
+		"rootPath": "/Users/miquel.doblado/Tools",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-datalake",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-datalake",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-documents-addDocumentAudience",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/documents/addDocumentAudience",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "LM-terraform",
+		"rootPath": "/Users/miquel.doblado/Projects/LM-terraform",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-datadog",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-datadog",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-orange",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-orange",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-orange-server",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-orange/server",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-orange-frontend",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-orange/frontend",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "LM-build",
+		"rootPath": "/Users/miquel.doblado/.GIS-lm-build",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-browserlessScrapper",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/browserlessScrapper",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-sharedTypes",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/sharedTypes",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-playwrightScrapper",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/playwrightScrapper",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-nicklpassLoginProvider",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/nicklpassLoginProvider",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-contentValidator",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/contentValidator",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-extractImages",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/extractImages",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-mediaCrawler",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/mediaCrawler",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-crawlerOrchestrator",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/crawler/crawlerOrchestrator",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-deduplicate",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/socialmedia/deduplicate",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-captureInstagram",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/socialmedia/captureInstagram",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-instagramScrapper",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/socialmedia/instagramScrapper",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-captureTwitter",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/socialmedia/captureTwitter",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-intagram-hiddenLikes",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/socialmedia/instagramHiddenLikes",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "external-mozilla-readability",
+		"rootPath": "/Users/miquel.doblado/Projects/external/mozilla/readability",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "LM-shared",
+		"rootPath": "/Users/miquel.doblado/Projects/LM-shared",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "LM-shared-dataqa-soda",
+		"rootPath": "/Users/miquel.doblado/Projects/LM-shared/python/lm-dataqa-soda",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "LM-github-workflows",
+		"rootPath": "/Users/miquel.doblado/Projects/LM-github-workflows",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-contentExtractor",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/online/contentExtractor",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-imageEmbedding",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/shared/imageEmbedding",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	},
+	{
+		"name": "BIT-microservices-ingestProfile",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-microservices/voices/orphanProfiles/ingestProfile/",
+		"paths": [],
+		"tags": [],
+		"enabled": true
+	}
+]

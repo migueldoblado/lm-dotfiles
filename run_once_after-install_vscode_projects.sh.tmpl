@@ -1,0 +1,6 @@
+#!//bin/bash
+# Packages hash: {{ include "editors/vscode/projects.json" | sha256sum }}
+
+echo "Setting vscode projects"
+
+cp "$(chezmoi source-path)/editors/vscode/projects.json" "/Users/miquel.doblado/Library/Application\ Support/Code/User/globalStorage/alefragnani.project-manager/projects.json"
