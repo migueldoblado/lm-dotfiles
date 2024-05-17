@@ -1,0 +1,30 @@
+#!/bin/bash
+
+# List of repositories
+repositories=({{ .git.work.repositories }})
+
+# Directory to clone repositories into
+projects_dir="$HOME/Projects"
+
+# Function to check if a repository exists on GitHub
+repository_exists() {
+    local repo=$1
+    if git ls-remote "git@github.com:{{ .git.work.company }}/$repo" &> /dev/null; then
+        return 0
+    else
+        return 1
+    fi
+}
+
+# Clone repositories if they don't exist
+for repo in "${repositories[@]}"; do
+    if [ ! -d "$projects_dir/$repo" ]; then
+        if repository_exists "$repo"; then
+            git clone "git@github.com:{{ .git.work.company }}/$repo" "$projects_dir/$repo"
+        else
+            echo "Repository $repo does not exist on GitHub."
+        fi
+    else
+        echo "Repository $repo already exists."
+    fi
+done
