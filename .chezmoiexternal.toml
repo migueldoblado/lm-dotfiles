@@ -1,0 +1,4 @@
+[".local/share/chezmoi/powerline/fonts"]
+    type = "git-repo"
+    url = "https://github.com/powerline/fonts.git"
+    refreshPeriod = "168h"
