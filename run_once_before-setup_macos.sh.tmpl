@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Used files hash: {{ include "system/sudo_local" | sha256sum }}
+
+set -euo pipefail
+
+OS=$(uname)
+
+if [[ "$OS" != "Darwin" ]]; then
+	exit 0
+fi;
+
+# Setup sudo fingerprint
+sudo cp {{ .chezmoi.workingTree }}/system/sudo_local /etc/pam.d/sudo_local
