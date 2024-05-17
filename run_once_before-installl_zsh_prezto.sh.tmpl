@@ -1,0 +1,40 @@
+#!/bin/zsh
+
+# This shell code is zsh, it fails run as bash
+
+# https://github.com/sorin-ionescu/prezto
+function install_prezto() {
+  echo "Intalling/Updating prezto if needed"
+
+  # Install Prezo if it isn't already present
+  if [[ ! -d $HOME/.zprezto/ ]]; then
+    git clone --recursive https://github.com/sorin-ionescu/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+
+    setopt EXTENDED_GLOB
+
+    # Skip readme and files which need further modification
+    # zshrc: need custom configuration. The workaround is to add 'source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"'
+    # at the beggining of the file
+    # zpreztorc: we need to add the desired module in line -> zstyle ':prezto:module:prompt' theme 'powerlevel10k'
+    # this module requires to load the p10k configuration from zshrc with -> [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh 
+    for rcfile in "${ZDOTDIR:-$HOME}"/.zprezto/runcoms/^(README.md|zshrc|zpreztorc)(.N); do
+      ln -s "$rcfile" "${ZDOTDIR:-$HOME}/.${rcfile:t}"
+    done
+
+    # Installing the powerlevel9k theme
+    git clone https://github.com/bhilburn/powerlevel9k.git  ~/.zprezto/modules/prompt/external/powerlevel9k
+
+    # If we want to uninstall it, just remove the ~/.zprezto folder
+
+    # Install powerline fonts (it requires execute chezmoi --refresh-externals apply as depends on configured external repo)
+    echo "Installing powerline fonts"
+    CHEZMOI_DIR=$(chezmoi source-path)
+    $CHEZMOI_DIR/powerline/fonts/install.sh
+  else
+    echo "Prezto already installed"
+    cd $HOME/.zprezto/
+    git pull && git submodule update --init --recursive
+  fi
+}
+
+install_prezto
