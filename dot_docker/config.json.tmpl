@@ -1,0 +1,11 @@
+{
+  "auths": {
+    "{{ pass "aws/accountId" }}.dkr.ecr.{{ pass "aws/region" }}.amazonaws.com": {
+      "auth": "{{ pass "docker/dockerRegistry" }}"
+    }
+  },
+  "credHelpers": {
+    "{{ pass "aws/accountId" }}.dkr.ecr.{{ pass "aws/region" }}.amazonaws.com": "ecr-login"
+  },
+  "credsStore": "desktop"
+}
