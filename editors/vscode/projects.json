@@ -57,7 +57,7 @@
 	},
 	{
 		"name": "Monitor",
-		"rootPath": "/net",
+		"rootPath": "/Users/miquel.doblado/Projects/BIT-monitor",
 		"paths": [],
 		"tags": [],
 		"enabled": true
