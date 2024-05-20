@@ -54,4 +54,8 @@ zstyle ':completion:*:kill:*' command 'ps -u $USER -o pid,%cpu,tty,cputime,cmd'
 
 export PATH=.:~/bin:~/.local/bin:$PATH
 export PATH="$HOME/.jenv/bin:$PATH"
+export PATH="$HOME/.GIS-lm-build/bin:$PATH"
 eval "$(jenv init -)"
+
+# Need to unalias lm to avoid conflict with lm-build
+unalias lm
