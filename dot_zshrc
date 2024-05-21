@@ -67,5 +67,9 @@ eval "$(jenv init -)"
 # Activate direnv
 eval "$(direnv hook zsh)"
 
+# Activate nodenv
+eval "$(nodenv init -)"
+
+
 # Need to unalias lm to avoid conflict with lm-build
 unalias lm
