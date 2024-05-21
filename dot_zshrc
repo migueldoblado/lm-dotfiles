@@ -11,6 +11,13 @@ precmd () {
   echo -ne "$window_title"
 }
 
+if [[ -d ~/.plenv ]]; then
+  export PLENV_ROOT=~/.plenv
+  export PLENV_SHELL=zsh
+  PLENV_VERSION=$(<$PLENV_ROOT/version)
+  export PATH="$PLENV_ROOT/shims:$PLENV_ROOT/versions/$PLENV_VERSION/bin:$PATH"
+fi
+
 # Set up the prompt
 
 autoload -Uz promptinit
