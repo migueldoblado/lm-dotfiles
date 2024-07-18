@@ -110,5 +110,5 @@ Password Store
 
 ## Acknowledgements
 
-Big shoutout to [@ribugent](https://github.com/ribugent/dotfiles/) and [@albertvila](https://github.com/albertvila/dotfiles/) for their awesome dotfiles!
+Big shoutout to [@ribugent](https://github.com/ribugent/dotfiles) and [@albertvila](https://github.com/albertvila/dotfiles) for their awesome dotfiles!
 I totally borrowed a ton of ideas and configurations from their repositories. If you check out their dotfiles, you'll see what I mean. They're incredible!
