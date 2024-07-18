@@ -70,6 +70,10 @@ eval "$(direnv hook zsh)"
 # Activate nodenv
 eval "$(nodenv init -)"
 
+# Activate pyenv
+eval "$(pyenv init --path)"
+eval "$(pyenv init -)"
+
 
 # Need to unalias lm to avoid conflict with lm-build
 unalias lm
